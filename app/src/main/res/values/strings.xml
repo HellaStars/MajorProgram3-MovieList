@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MovieList</string>
+    <string name="appName_2">Movie list</string>
+    <string name="add">ADD MOVIE</string>
+    <string name="save">SAVE LIST</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

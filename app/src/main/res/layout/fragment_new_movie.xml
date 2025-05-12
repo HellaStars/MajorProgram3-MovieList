@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    android:background="@color/lavander2">
+
+    <EditText
+        android:id="@+id/titleInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkGrey"
+        android:hint="Movie Title"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/yearInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Year"
+        android:background="@color/darkGrey"
+        android:inputType="number"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/genreInput"
+        android:background="@color/darkGrey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Genre"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/ratingInput"
+        android:background="@color/darkGrey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rating"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/saveMovieButton"
+        android:layout_width="match_parent"
+        android:background="@color/darkGrey"
+        android:layout_height="wrap_content"
+        android:text="Save Movie"/>
+
+</LinearLayout>
